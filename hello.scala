@@ -9,6 +9,6 @@ def max(x: Int, y: Int): Int = {
 
 println(max(4,10))
 
-def greet() = println("Hello World second!")
+def greet(): Unit = println("Hello World second!")
 
 greet()
